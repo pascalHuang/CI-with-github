@@ -8,6 +8,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/pascalHuang/CI-with-github'}}
         stage('Test') {
             steps {
-                bat 'python test_main.py'}}
+                bat "C:\Users\miste\AppData\Local\Microsoft\WindowsApps\python.exe" 'test_main.py'}}
     }
 }
