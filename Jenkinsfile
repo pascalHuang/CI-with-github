@@ -8,6 +8,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/pascalHuang/CI-with-github'}}
         stage('Test') {
             steps {
-                sh 'python3 test_main.py'}}
+                bat 'python3 test_main.py'}}
     }
 }
